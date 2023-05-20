@@ -28,7 +28,7 @@ def header1(url):
      st.markdown(f'<p style="color:red;font-size:36px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
 
 def headermsg(url):
-     st.markdown(f'<p style="background-color:#0066cc;color:#33ff33;font-size:48px;">{url}</p>', unsafe_allow_html=True)
+     st.markdown(f'<p style="background-color:#0066cc;color:#33ff33;font-size:36px;">{url}</p>', unsafe_allow_html=True)
 
 
 st.set_page_config(page_title="SNS", layout="wide")
@@ -175,7 +175,7 @@ video_bytes = video_file.read()
 if st.button('Play Special Credit Live Video captured by Apple 😂 (Sorry)'):
     st.video(video_bytes)
 
-if st.button('(Disclaimer Allow Multiple Popups) Stuck with this song on Spotify! 🎧 Especially the last lyrics to this song and also Cupid 💘, (3) Quotes: 🗒️ and an article I\'ve been wanting to write'):
+if st.button('(Disclaimer Allow Multiple Popups Refresh the page and check top right to allow) Stuck with this song on Spotify! 🎧 Especially the last lyrics to this song and also Cupid 💘, (3) Quotes: 🗒️ and an article I\'ve been wanting to write'):
     urls = ['https://www.youtube.com/watch?v=yv1UtpmBU8k', 'https://www.youtube.com/watch?v=Qc7_zRjH808' ,'https://quotecatalog.com/quote/paulo-coelho-when-you-want-s-D1jnWE1',\
     'https://quotecatalog.com/quote/paulo-coelho-when-we-love-w-g7OGAe7', 'https://quotecatalog.com/quote/hplyrikz-nice-guys-finis-V7Lrmxa',
     'https://grape-liquid-f37.notion.site/Nice-Guys-don-t-always-need-to-finish-Last-552c4ff41797417ba7ca1ba9a1242a1d']
